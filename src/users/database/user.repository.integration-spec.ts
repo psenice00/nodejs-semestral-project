@@ -1,5 +1,5 @@
 import { EntityBuilder } from 'src/common/builders/entityBuilder';
-import { UserRepository } from '../../../user.repository';
+import { UserRepository } from './user.repository';
 import { IntegrationTestingSetup } from 'src/common/testing/integration-testing-setup';
 import { QueryFailedError } from 'typeorm';
 import { v4 } from 'uuid';

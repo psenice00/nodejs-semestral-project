@@ -13,7 +13,7 @@ import {
   USER_NOT_FOUND,
 } from 'src/common/exceptions/exception';
 
-import { UserRepository } from '../../../user.repository';
+import { UserRepository } from '../database/user.repository';
 import { UserStatusEnum } from './enum/userStatus.enum';
 import { UserTypeEnum } from './enum/userType.enum';
 import { User } from './user';
